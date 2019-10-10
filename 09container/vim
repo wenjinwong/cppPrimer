@@ -1,0 +1,13 @@
+#include<iostream>
+#include<cctype>
+#include<string>
+#include<vector>
+#include<list>
+#include<deque>
+#include<fstream>
+using namespace std;
+
+int main()
+{
+
+}

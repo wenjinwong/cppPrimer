@@ -1,0 +1,16 @@
+#include<iostream>
+#include<cctype>
+#include<string>
+#include<tuple>
+#include<regex>
+using namespace std;
+
+int main() 
+{
+	regex r("[[:alpha:]][!c](ie)*[[:alpha:]]");
+	char *p ;
+	cin >> p;
+	cmatch cm;
+	regex_search(P, cm, regex::icase, r);
+}
+
